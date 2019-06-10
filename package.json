@@ -1,0 +1,34 @@
+{
+  "name": "cloudflare-purge-cache",
+  "version": "1.0.0",
+  "description": "Purge cloudflare all files cache",
+  "author": "SiriusTsou",
+  "keywords": [
+    "cloudflare",
+    "cache",
+    "purge",
+    "purge-cache",
+    "node.js",
+    "node"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "r2": "^2.0.1",
+    "yargs": "^13.2.4"
+  },
+  "main": "lib/index.js",
+  "bin": {
+    "cloudflare-purge-cache": "bin/cloudflare-purge-cache.js"
+  },
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SiriusTsou/cloudflare-purge-cache.git"
+  },
+  "engines": {
+    "node": "8.15.1",
+    "npm": "6.9.0"
+  }
+}
