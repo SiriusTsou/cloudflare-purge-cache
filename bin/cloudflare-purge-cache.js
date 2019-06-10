@@ -28,7 +28,7 @@ argv.zone = argv.zone || argv._[2]
 argv.slient = argv.slient || argv._[3]
 
 const slient = (typeof argv.slient !== 'undefined' && argv.slient === "true")
-cloudflarePurgeCache(argv).then(result => {
+cloudflarePurgeCache(argv.email, argv.key, argv.zone).then(result => {
   if (!slient) console.log(result)
   process.exit(0)
 }).catch(e => {
