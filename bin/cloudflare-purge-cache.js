@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 const cloudflarePurgeCache = require('../lib/index.js')
 
 const argv = require('yargs')
