@@ -1,6 +1,6 @@
 {
   "name": "cloudflare-purge-cache",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Purge cloudflare all files cache",
   "author": "SiriusTsou",
   "keywords": [
